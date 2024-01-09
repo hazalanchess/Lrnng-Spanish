@@ -1,0 +1,16 @@
+import time
+
+# Define a dictionary with Spanish and Turkish word pairs
+word_pairs = {
+    "hola": "merhaba",
+    "adiós": "güle güle",
+    "gracias": "teşekkürler",
+    "sí": "evet",
+    "no": "hayır",
+    # Add more word pairs as needed
+}
+
+# Loop through the word pairs and display each pair for one minute
+for spanish_word, turkish_word in word_pairs.items():
+    print(f"{spanish_word} - {turkish_word}")
+    time.sleep(60)  # Pause the program for 60 seconds (1 minute)
